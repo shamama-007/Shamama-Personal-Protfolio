@@ -1,0 +1,112 @@
+@media only screen and (max-width: 884px) {
+  header nav .menu {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1228px) {
+  .heroMain {
+    width: 1000px;
+  }
+
+  .hero-left-side h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .heroMain {
+    width: 800px;
+  }
+
+  .hero-left-side h1 {
+    font-size: 40px;
+  }
+
+  .sectionHeading h1 {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .heroMain {
+    width: 800px;
+    margin-top: 60px;
+    flex-direction: column;
+  }
+
+  .heroMain .hero-left-side {
+    width: 80%;
+  }
+
+  .heroMain .hero-right-side {
+    width: 80%;
+  }
+
+  .hero-left-side h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  header nav .logo h1 {
+    font-size: 20px;
+  }
+
+  .skill-item .skill {
+    width: 115px;
+    height: 115px;
+  }
+
+  .headingleft {
+    text-align: center;
+  }
+  .right-side {
+    width: 90%;
+}
+}
+
+@media only screen and (max-width: 428px) {
+  .sectionHeading.headingleft {
+    text-align: center;
+  }
+  .sectionHeading h1 {
+    font-size: 30px;
+  }
+  .project-item {
+    justify-content: center;
+  }
+  .contact-item .item {
+    width: 80%;
+    height: auto;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border: 1px solid #2d2d30;
+    padding: 20px;
+    overflow: hidden;
+    cursor: default;
+    text-align: center;
+  }
+  .hero-left-side h1 {
+    font-size: 23px;
+  }
+  .hero-left-side p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .sectionHeading h1 {
+    font-size: 28px;
+}
+}
