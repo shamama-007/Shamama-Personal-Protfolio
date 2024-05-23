@@ -562,6 +562,7 @@ header nav .menu ul a li:hover {
   text-align: center;
   color: var(--dark-color);
   letter-spacing: 1.05px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* ========================================================== */
@@ -642,6 +643,7 @@ header nav .menu ul a li:hover {
   font-size: 15px;
   line-height: 20px;
   color: var(--dark-color);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .project-1 .project-lang {
@@ -653,7 +655,6 @@ header nav .menu ul a li:hover {
   /* background: purple; */
   border-top: 2px solid #252526;
   display: flex;
-  /* justify-content: center; */
   padding: 0 10px;
   align-items: center;
 }
@@ -671,8 +672,9 @@ header nav .menu ul a li:hover {
 }
 
 .project-1 .project-lang .item img {
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
+  height: 100%;
 }
 
 /* ========================================================== */
@@ -729,6 +731,7 @@ header nav .menu ul a li:hover {
 }
 .contact-item .item .social-detail p {
   color: #b9b9be;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* ========================================================== */
@@ -746,6 +749,7 @@ footer {
 footer p {
   padding: 20px;
   color: var(--dark-color);
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Tooltip */
