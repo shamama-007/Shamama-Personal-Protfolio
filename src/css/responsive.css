@@ -60,6 +60,7 @@
   .skill-item .skill {
     width: 115px;
     height: 115px;
+    margin: 20px;
   }
 
   .headingleft {
